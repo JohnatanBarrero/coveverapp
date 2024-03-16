@@ -1,0 +1,189 @@
+[
+  {
+    "idUser": "234523",
+    "name": "juana",
+    "lastName": "barero",
+    "role": "admin",
+    "nameEvent": "active",
+    "email": "juana.barero@example.com",
+    "password": "Colombia1234**",
+    "typeDocument": "CC",
+    "numberDocument": "34324234"
+  },
+  {
+    "idUser": "634126",
+    "name": "pedro",
+    "lastName": "sanchez",
+    "role": "user",
+    "nameEvent": "inactive",
+    "email": "pedro.sanchez@example.com",
+    "password": "Mexico5678@@",
+    "typeDocument": "CC",
+    "numberDocument": "87543212"
+  },
+  {
+    "idUser": "786241",
+    "name": "maria",
+    "lastName": "lopez",
+    "role": "admin",
+    "nameEvent": "active",
+    "email": "maria.lopez@example.com",
+    "password": "Argentina91011##",
+    "typeDocument": "CC",
+    "numberDocument": "98765432"
+  },
+  {
+    "idUser": "457823",
+    "name": "juan",
+    "lastName": "garcia",
+    "role": "user",
+    "nameEvent": "inactive",
+    "email": "juan.garcia@example.com",
+    "password": "Brazil121314**",
+    "typeDocument": "CC",
+    "numberDocument": "23456789"
+  },
+  {
+    "idUser": "239847",
+    "name": "laura",
+    "lastName": "rodriguez",
+    "role": "admin",
+    "nameEvent": "active",
+    "email": "laura.rodriguez@example.com",
+    "password": "Chile151617##",
+    "typeDocument": "CC",
+    "numberDocument": "54321678"
+  },
+  {
+    "idUser": "892346",
+    "name": "carlos",
+    "lastName": "martinez",
+    "role": "user",
+    "nameEvent": "inactive",
+    "email": "carlos.martinez@example.com",
+    "password": "Peru181920@@",
+    "typeDocument": "CC",
+    "numberDocument": "32198765"
+  },
+  {
+    "idUser": "365892",
+    "name": "ana",
+    "lastName": "fernandez",
+    "role": "admin",
+    "nameEvent": "active",
+    "email": "ana.fernandez@example.com",
+    "password": "Ecuador212223**",
+    "typeDocument": "CC",
+    "numberDocument": "87654321"
+  },
+  {
+    "idUser": "124578",
+    "name": "jose",
+    "lastName": "perez",
+    "role": "user",
+    "nameEvent": "inactive",
+    "email": "jose.perez@example.com",
+    "password": "Uruguay242526@@",
+    "typeDocument": "CC",
+    "numberDocument": "13579246"
+  },
+  {
+    "idUser": "789654",
+    "name": "luis",
+    "lastName": "gonzalez",
+    "role": "admin",
+    "nameEvent": "active",
+    "email": "luis.gonzalez@example.com",
+    "password": "Paraguay272829##",
+    "typeDocument": "CC",
+    "numberDocument": "98765432"
+  },
+  {
+    "idUser": "456987",
+    "name": "andrea",
+    "lastName": "ramirez",
+    "role": "user",
+    "nameEvent": "inactive",
+    "email": "andrea.ramirez@example.com",
+    "password": "Bolivia303132**",
+    "typeDocument": "CC",
+    "numberDocument": "24681357"
+  },
+  {
+    "idUser": "789456",
+    "name": "miguel",
+    "lastName": "torres",
+    "role": "admin",
+    "nameEvent": "active",
+    "email": "miguel.torres@example.com",
+    "password": "Venezuela333435@@",
+    "typeDocument": "CC",
+    "numberDocument": "98765432"
+  },
+  {
+    "idUser": "123789",
+    "name": "sara",
+    "lastName": "hernandez",
+    "role": "user",
+    "nameEvent": "inactive",
+    "email": "sara.hernandez@example.com",
+    "password": "Panama363738##",
+    "typeDocument": "CC",
+    "numberDocument": "13579246"
+  },
+  {
+    "idUser": "987654",
+    "name": "javier",
+    "lastName": "diaz",
+    "role": "admin",
+    "nameEvent": "active",
+    "email": "javier.diaz@example.com",
+    "password": "Nicaragua394041**",
+    "typeDocument": "CC",
+    "numberDocument": "24681357"
+  },
+  {
+    "idUser": "654123",
+    "name": "lucia",
+    "lastName": "ruiz",
+    "role": "user",
+    "nameEvent": "inactive",
+    "email": "lucia.ruiz@example.com",
+    "password": "CostaRica424344@@",
+    "typeDocument": "CC",
+    "numberDocument": "97531862"
+  },
+  {
+    "idUser": "321789",
+    "name": "daniel",
+    "lastName": "gomez",
+    "role": "admin",
+    "nameEvent": "active",
+    "email": "daniel.gomez@example.com",
+    "password": "ElSalvador454647##",
+    "typeDocument": "CC",
+    "numberDocument": "86421357"
+  },
+  {
+    "idUser": "785412",
+    "name": "martha",
+    "lastName": "santos",
+    "role": "user",
+    "nameEvent": "inactive",
+    "email": "martha.santos@example.com",
+    "password": "Honduras484950**",
+    "typeDocument": "CC",
+    "numberDocument": "13579246"
+  },
+  {
+    "idUser": "654789",
+    "name": "oscar",
+    "lastName": "mendoza",
+    "role": "admin",
+    "nameEvent": "active",
+    "email": "oscar.mendoza@example.com",
+    "password": "Guatemala515253@@",
+    "typeDocument": "CC",
+    "numberDocument": "97531862"
+  }
+]
