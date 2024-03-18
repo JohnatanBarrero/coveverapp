@@ -20,7 +20,7 @@ class AppModule extends Module {
   List<ModularRoute> get routes => [
         ChildRoute(
           Modular.initialRoute,
-          child: (_, args) => const login.LoginScreen(),
+          child: (_, args) =>  login.LoginScreen(),
         ),
 
         //   Modular.initialRoute,

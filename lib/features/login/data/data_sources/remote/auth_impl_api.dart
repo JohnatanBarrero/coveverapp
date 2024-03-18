@@ -1,5 +1,5 @@
 import 'package:coveverapp/config/http/api.dart';
-import 'package:coveverapp/core/utils/json_loader.dart';
+import 'package:coveverapp/shared/utils/json_loader.dart';
 import 'package:coveverapp/features/login/data/data_sources/remote/abstract_auth_api.dart';
 import 'package:coveverapp/features/login/domain/models/user_model.dart';
 import 'package:flutter/material.dart';

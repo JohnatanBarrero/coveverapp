@@ -1,1 +1,19 @@
-{}
+{
+  "@@locale": "en",
+  "welcometo": "Welcome to",
+  "evertec": "Evertec",
+  "fieldNameInvalid": "Invalid name field",
+  "fieldpassInvalid": "Invalid pass field",
+  "typeDocument": "Type of document",
+  "numberDocument": "Number of Document",
+  "password": "password",
+  "login": "Login",
+  "registerUser":"Register User",
+  "fieldTypeDocumentInvalid":"Field Type Document Invalid",
+  "selectAtypedocument":"Select a document",
+  "pageInConstruction": "Page in Construction",
+  "logingGoogleNotAviable":"Google login is not aviable, sorry for that, we recommend doing it manually",
+  "logingFacebookNotAviable":"Facebook login is not aviable, sorry for that, we recommend doing it manually",
+  "logingInstagramNotAviable":"Instagram login is not aviable, sorry for that, we recommend doing it manually",
+  "close":"Close"
+}

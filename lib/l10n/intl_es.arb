@@ -1,1 +1,19 @@
-{}
+{
+  "@@locale": "es",
+  "welcometo": "Bienvenido a",
+  "evertec": "Evertec",
+  "fieldNameInvalid": "Campo nombre invalido",
+  "fieldpassInvalid": "Campo contraseña invalido",
+  "typeDocument": "Tipo de Documento",
+  "numberDocument": "Número de Documento",
+  "password": "Contraseña",
+  "login": "Login",
+  "registerUser": "Registrar Usuario",
+  "fieldTypeDocumentInvalid": "Tipo de documento invalido",
+  "selectAtypedocument":"Seleccione un tipo de documento",
+  "pageInConstruction": "Página en Construcción.",
+  "logingGoogleNotAviable":"Login de google no disponible, disculpe las molestias, le recomendamos registrarse manualmente",
+  "logingFacebookNotAviable":"Login de Facebook no disponible, disculpe las molestias, le recomendamos registrarse manualmente",
+  "logingInstagramNotAviable":"Login de Instagram no disponible, disculpe las molestias, le recomendamos registrarse manualmente",
+  "close":"Cerrar"
+}

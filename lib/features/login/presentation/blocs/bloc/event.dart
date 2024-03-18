@@ -15,3 +15,8 @@ class LoginUserEvent extends Event {
   final String password;
   LoginUserEvent(this.numberDocument, this.typeDocument, this.password);
 }
+
+class SelectTypeDocumentEvent extends Event {
+  final String typeDocument;
+  SelectTypeDocumentEvent(this.typeDocument);
+}

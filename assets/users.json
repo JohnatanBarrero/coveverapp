@@ -51,7 +51,7 @@
     "nameEvent": "active",
     "email": "laura.rodriguez@example.com",
     "password": "Chile151617##",
-    "typeDocument": "CC",
+    "typeDocument": "TI",
     "numberDocument": "54321678"
   },
   {
@@ -62,7 +62,7 @@
     "nameEvent": "inactive",
     "email": "carlos.martinez@example.com",
     "password": "Peru181920@@",
-    "typeDocument": "CC",
+    "typeDocument": "CE",
     "numberDocument": "32198765"
   },
   {
@@ -161,7 +161,7 @@
     "nameEvent": "active",
     "email": "daniel.gomez@example.com",
     "password": "ElSalvador454647##",
-    "typeDocument": "CC",
+    "typeDocument": "TI",
     "numberDocument": "86421357"
   },
   {
@@ -172,7 +172,7 @@
     "nameEvent": "inactive",
     "email": "martha.santos@example.com",
     "password": "Honduras484950**",
-    "typeDocument": "CC",
+    "typeDocument": "CE",
     "numberDocument": "13579246"
   },
   {
@@ -183,7 +183,7 @@
     "nameEvent": "active",
     "email": "oscar.mendoza@example.com",
     "password": "Guatemala515253@@",
-    "typeDocument": "CC",
+    "typeDocument": "CE",
     "numberDocument": "97531862"
   }
 ]
