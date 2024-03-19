@@ -14,7 +14,7 @@ class AuthRepositoryImpl extends AbstractAuthRepository {
   @override
   Future<UserModel> login(String numberDocument, String password, String typeDocument) async{
    
-   return articlesApi.loginLocal(numberDocument, password, typeDocument);
+   return await articlesApi.loginLocal(numberDocument, password, typeDocument);
   }
 
 }

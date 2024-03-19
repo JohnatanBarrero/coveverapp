@@ -5,7 +5,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_modular/flutter_modular.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
-import 'package:coveverapp/features/login/presentation/blocs/bloc/bloc.dart' as bloc_login;
+import 'package:coveverapp/features/login/presentation/blocs/bloc/bloc.dart'
+    as bloc_login;
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -27,7 +28,7 @@ class MyApp extends StatelessWidget {
       urlBase: 'https://api.covidtracking.com/v1/',
     );
 
-      final bloc_login.Bloc blocLogin = Modular.get();
+    final bloc_login.Bloc blocLogin = Modular.get();
     blocLogin.add(
       bloc_login.LoadInitialEvent(),
     );
@@ -45,8 +46,8 @@ class MyApp extends StatelessWidget {
       supportedLocales: const [Locale.fromSubtags(languageCode: 'es')],
       theme: ThemeData(
         fontFamily: GoogleFonts.montserrat().fontFamily,
-        primaryColor: const Color(0xFF4069A1),
+        primaryColor: const Color(0xFFED8429),
       ),
     );
-  } 
+  }
 }

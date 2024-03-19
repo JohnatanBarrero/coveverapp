@@ -1,5 +1,5 @@
 import 'package:coveverapp/config/http/api.dart';
-import 'package:coveverapp/core/utils/json_loader.dart';
+import 'package:coveverapp/shared/utils/json_loader.dart';
 import 'package:coveverapp/features/login/data/data_sources/remote/abstract_auth_api.dart';
 import 'package:coveverapp/features/login/domain/models/user_model.dart';
 import 'package:flutter/material.dart';
@@ -30,12 +30,13 @@ class AuthImplApi extends AbstractAuthApi {
 
       // Cargar los datos JSON
       final dynamic jsonData = await jsonLoader.cargarDatosJson();
-
       if (jsonData != null) {
-        // List<UserModel> users =
-        //     (jsonData as List).map((item) => UserModel.fromJson(item)).toList();
 
-        List<UserModel> ltsUsers = (jsonData)
+
+        await jsonLoader.verificarCrearYLLenarArchivo(jsonData, 'users');
+        final dynamic infoUsers =   await jsonLoader.leerDatosDesdeArchivo('users');
+
+        List<UserModel> ltsUsers = (infoUsers)
             .map<UserModel>((element) => UserModel.fromJson(element))
             .toList();
 
@@ -49,7 +50,6 @@ class AuthImplApi extends AbstractAuthApi {
       throw FlutterError(
           'No se encontró ningún usuario con las credenciales proporcionadas.');
     } catch (e) {
-      print(e);
       throw FlutterError(
           'No se encontró ningún usuario con las credenciales proporcionadas.');
     }

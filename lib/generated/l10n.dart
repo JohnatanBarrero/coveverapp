@@ -49,6 +49,296 @@ class S {
   static S? maybeOf(BuildContext context) {
     return Localizations.of<S>(context, S);
   }
+
+  /// `Bienvenido a`
+  String get welcometo {
+    return Intl.message(
+      'Bienvenido a',
+      name: 'welcometo',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Evertec`
+  String get evertec {
+    return Intl.message(
+      'Evertec',
+      name: 'evertec',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Campo nombre invalido`
+  String get fieldNameInvalid {
+    return Intl.message(
+      'Campo nombre invalido',
+      name: 'fieldNameInvalid',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Campo Apellido invalido`
+  String get fieldLastNameInvalid {
+    return Intl.message(
+      'Campo Apellido invalido',
+      name: 'fieldLastNameInvalid',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Campo contraseña invalido`
+  String get fieldpassInvalid {
+    return Intl.message(
+      'Campo contraseña invalido',
+      name: 'fieldpassInvalid',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Campo email invalido`
+  String get fieldEmailInvalid {
+    return Intl.message(
+      'Campo email invalido',
+      name: 'fieldEmailInvalid',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Tipo de Documento`
+  String get typeDocument {
+    return Intl.message(
+      'Tipo de Documento',
+      name: 'typeDocument',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Número de Documento`
+  String get numberDocument {
+    return Intl.message(
+      'Número de Documento',
+      name: 'numberDocument',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Contraseña`
+  String get password {
+    return Intl.message(
+      'Contraseña',
+      name: 'password',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Login`
+  String get login {
+    return Intl.message(
+      'Login',
+      name: 'login',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Registrar Usuario`
+  String get registerUser {
+    return Intl.message(
+      'Registrar Usuario',
+      name: 'registerUser',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Tipo de documento invalido`
+  String get fieldTypeDocumentInvalid {
+    return Intl.message(
+      'Tipo de documento invalido',
+      name: 'fieldTypeDocumentInvalid',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Seleccione un tipo de documento`
+  String get selectAtypedocument {
+    return Intl.message(
+      'Seleccione un tipo de documento',
+      name: 'selectAtypedocument',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Página en Construcción.`
+  String get pageInConstruction {
+    return Intl.message(
+      'Página en Construcción.',
+      name: 'pageInConstruction',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Login de google no disponible, disculpe las molestias, le recomendamos registrarse manualmente`
+  String get logingGoogleNotAviable {
+    return Intl.message(
+      'Login de google no disponible, disculpe las molestias, le recomendamos registrarse manualmente',
+      name: 'logingGoogleNotAviable',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Login de Facebook no disponible, disculpe las molestias, le recomendamos registrarse manualmente`
+  String get logingFacebookNotAviable {
+    return Intl.message(
+      'Login de Facebook no disponible, disculpe las molestias, le recomendamos registrarse manualmente',
+      name: 'logingFacebookNotAviable',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Login de Instagram no disponible, disculpe las molestias, le recomendamos registrarse manualmente`
+  String get logingInstagramNotAviable {
+    return Intl.message(
+      'Login de Instagram no disponible, disculpe las molestias, le recomendamos registrarse manualmente',
+      name: 'logingInstagramNotAviable',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Cerrar`
+  String get close {
+    return Intl.message(
+      'Cerrar',
+      name: 'close',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Credenciales invalidas`
+  String get invalidCredentials {
+    return Intl.message(
+      'Credenciales invalidas',
+      name: 'invalidCredentials',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Las credenciales no han sido validas, intente de nuevo o registrese si no tiene cuenta`
+  String get tryAgainOrRegister {
+    return Intl.message(
+      'Las credenciales no han sido validas, intente de nuevo o registrese si no tiene cuenta',
+      name: 'tryAgainOrRegister',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Intentar de nuevo`
+  String get tryAgain {
+    return Intl.message(
+      'Intentar de nuevo',
+      name: 'tryAgain',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Nombre`
+  String get name {
+    return Intl.message(
+      'Nombre',
+      name: 'name',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Apellido`
+  String get lastLame {
+    return Intl.message(
+      'Apellido',
+      name: 'lastLame',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Email`
+  String get email {
+    return Intl.message(
+      'Email',
+      name: 'email',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Registro`
+  String get register {
+    return Intl.message(
+      'Registro',
+      name: 'register',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Confirme contraseña`
+  String get confirmPassword {
+    return Intl.message(
+      'Confirme contraseña',
+      name: 'confirmPassword',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Las contraseñas deben ser iguales`
+  String get passShouldBeSame {
+    return Intl.message(
+      'Las contraseñas deben ser iguales',
+      name: 'passShouldBeSame',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Error registrando usuario`
+  String get errrorRegisterUser {
+    return Intl.message(
+      'Error registrando usuario',
+      name: 'errrorRegisterUser',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `No hemos podido hacer el registro del usuario intente mas tarde o contacte al administrador`
+  String get errorRegisterUserWhy {
+    return Intl.message(
+      'No hemos podido hacer el registro del usuario intente mas tarde o contacte al administrador',
+      name: 'errorRegisterUserWhy',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {
@@ -57,6 +347,7 @@ class AppLocalizationDelegate extends LocalizationsDelegate<S> {
   List<Locale> get supportedLocales {
     return const <Locale>[
       Locale.fromSubtags(languageCode: 'es'),
+      Locale.fromSubtags(languageCode: 'en'),
     ];
   }
 

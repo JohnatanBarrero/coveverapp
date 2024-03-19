@@ -21,5 +21,54 @@ class MessageLookup extends MessageLookupByLibrary {
   String get localeName => 'es';
 
   final messages = _notInlinedMessages(_notInlinedMessages);
-  static Map<String, Function> _notInlinedMessages(_) => <String, Function>{};
+  static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
+        "close": MessageLookupByLibrary.simpleMessage("Cerrar"),
+        "confirmPassword":
+            MessageLookupByLibrary.simpleMessage("Confirme contraseña"),
+        "email": MessageLookupByLibrary.simpleMessage("Email"),
+        "errorRegisterUserWhy": MessageLookupByLibrary.simpleMessage(
+            "No hemos podido hacer el registro del usuario intente mas tarde o contacte al administrador"),
+        "errrorRegisterUser":
+            MessageLookupByLibrary.simpleMessage("Error registrando usuario"),
+        "evertec": MessageLookupByLibrary.simpleMessage("Evertec"),
+        "fieldEmailInvalid":
+            MessageLookupByLibrary.simpleMessage("Campo email invalido"),
+        "fieldLastNameInvalid":
+            MessageLookupByLibrary.simpleMessage("Campo Apellido invalido"),
+        "fieldNameInvalid":
+            MessageLookupByLibrary.simpleMessage("Campo nombre invalido"),
+        "fieldTypeDocumentInvalid":
+            MessageLookupByLibrary.simpleMessage("Tipo de documento invalido"),
+        "fieldpassInvalid":
+            MessageLookupByLibrary.simpleMessage("Campo contraseña invalido"),
+        "invalidCredentials":
+            MessageLookupByLibrary.simpleMessage("Credenciales invalidas"),
+        "lastLame": MessageLookupByLibrary.simpleMessage("Apellido"),
+        "login": MessageLookupByLibrary.simpleMessage("Login"),
+        "logingFacebookNotAviable": MessageLookupByLibrary.simpleMessage(
+            "Login de Facebook no disponible, disculpe las molestias, le recomendamos registrarse manualmente"),
+        "logingGoogleNotAviable": MessageLookupByLibrary.simpleMessage(
+            "Login de google no disponible, disculpe las molestias, le recomendamos registrarse manualmente"),
+        "logingInstagramNotAviable": MessageLookupByLibrary.simpleMessage(
+            "Login de Instagram no disponible, disculpe las molestias, le recomendamos registrarse manualmente"),
+        "name": MessageLookupByLibrary.simpleMessage("Nombre"),
+        "numberDocument":
+            MessageLookupByLibrary.simpleMessage("Número de Documento"),
+        "pageInConstruction":
+            MessageLookupByLibrary.simpleMessage("Página en Construcción."),
+        "passShouldBeSame": MessageLookupByLibrary.simpleMessage(
+            "Las contraseñas deben ser iguales"),
+        "password": MessageLookupByLibrary.simpleMessage("Contraseña"),
+        "register": MessageLookupByLibrary.simpleMessage("Registro"),
+        "registerUser":
+            MessageLookupByLibrary.simpleMessage("Registrar Usuario"),
+        "selectAtypedocument": MessageLookupByLibrary.simpleMessage(
+            "Seleccione un tipo de documento"),
+        "tryAgain": MessageLookupByLibrary.simpleMessage("Intentar de nuevo"),
+        "tryAgainOrRegister": MessageLookupByLibrary.simpleMessage(
+            "Las credenciales no han sido validas, intente de nuevo o registrese si no tiene cuenta"),
+        "typeDocument":
+            MessageLookupByLibrary.simpleMessage("Tipo de Documento"),
+        "welcometo": MessageLookupByLibrary.simpleMessage("Bienvenido a")
+      };
 }
