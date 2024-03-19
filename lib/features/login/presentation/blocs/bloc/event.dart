@@ -10,13 +10,29 @@ class LoadInitialEvent extends Event {
 }
 
 class LoginUserEvent extends Event {
-  final String numberDocument;
-  final String typeDocument;
-  final String password;
-  LoginUserEvent(this.numberDocument, this.typeDocument, this.password);
+  LoginUserEvent();
 }
 
 class SelectTypeDocumentEvent extends Event {
   final String typeDocument;
   SelectTypeDocumentEvent(this.typeDocument);
+}
+
+class SetNumberDocumentEvent extends Event {
+  final String numberDocument;
+  SetNumberDocumentEvent(this.numberDocument);
+}
+
+class SetPasswordEvent extends Event {
+  final String password;
+  SetPasswordEvent(this.password);
+}
+
+class ChangeTextPassEvent extends Event {
+  final bool canToShow;
+  ChangeTextPassEvent(this.canToShow);
+}
+
+class RegisterUserEvent extends Event {
+  RegisterUserEvent();
 }

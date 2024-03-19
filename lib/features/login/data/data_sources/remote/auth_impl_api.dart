@@ -30,12 +30,13 @@ class AuthImplApi extends AbstractAuthApi {
 
       // Cargar los datos JSON
       final dynamic jsonData = await jsonLoader.cargarDatosJson();
-
       if (jsonData != null) {
-        // List<UserModel> users =
-        //     (jsonData as List).map((item) => UserModel.fromJson(item)).toList();
 
-        List<UserModel> ltsUsers = (jsonData)
+
+        await jsonLoader.verificarCrearYLLenarArchivo(jsonData, 'users');
+        final dynamic infoUsers =   await jsonLoader.leerDatosDesdeArchivo('users');
+
+        List<UserModel> ltsUsers = (infoUsers)
             .map<UserModel>((element) => UserModel.fromJson(element))
             .toList();
 
@@ -49,7 +50,6 @@ class AuthImplApi extends AbstractAuthApi {
       throw FlutterError(
           'No se encontró ningún usuario con las credenciales proporcionadas.');
     } catch (e) {
-      print(e);
       throw FlutterError(
           'No se encontró ningún usuario con las credenciales proporcionadas.');
     }

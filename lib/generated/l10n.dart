@@ -80,11 +80,31 @@ class S {
     );
   }
 
+  /// `Campo Apellido invalido`
+  String get fieldLastNameInvalid {
+    return Intl.message(
+      'Campo Apellido invalido',
+      name: 'fieldLastNameInvalid',
+      desc: '',
+      args: [],
+    );
+  }
+
   /// `Campo contraseña invalido`
   String get fieldpassInvalid {
     return Intl.message(
       'Campo contraseña invalido',
       name: 'fieldpassInvalid',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Campo email invalido`
+  String get fieldEmailInvalid {
+    return Intl.message(
+      'Campo email invalido',
+      name: 'fieldEmailInvalid',
       desc: '',
       args: [],
     );
@@ -205,6 +225,116 @@ class S {
     return Intl.message(
       'Cerrar',
       name: 'close',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Credenciales invalidas`
+  String get invalidCredentials {
+    return Intl.message(
+      'Credenciales invalidas',
+      name: 'invalidCredentials',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Las credenciales no han sido validas, intente de nuevo o registrese si no tiene cuenta`
+  String get tryAgainOrRegister {
+    return Intl.message(
+      'Las credenciales no han sido validas, intente de nuevo o registrese si no tiene cuenta',
+      name: 'tryAgainOrRegister',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Intentar de nuevo`
+  String get tryAgain {
+    return Intl.message(
+      'Intentar de nuevo',
+      name: 'tryAgain',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Nombre`
+  String get name {
+    return Intl.message(
+      'Nombre',
+      name: 'name',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Apellido`
+  String get lastLame {
+    return Intl.message(
+      'Apellido',
+      name: 'lastLame',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Email`
+  String get email {
+    return Intl.message(
+      'Email',
+      name: 'email',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Registro`
+  String get register {
+    return Intl.message(
+      'Registro',
+      name: 'register',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Confirme contraseña`
+  String get confirmPassword {
+    return Intl.message(
+      'Confirme contraseña',
+      name: 'confirmPassword',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Las contraseñas deben ser iguales`
+  String get passShouldBeSame {
+    return Intl.message(
+      'Las contraseñas deben ser iguales',
+      name: 'passShouldBeSame',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Error registrando usuario`
+  String get errrorRegisterUser {
+    return Intl.message(
+      'Error registrando usuario',
+      name: 'errrorRegisterUser',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `No hemos podido hacer el registro del usuario intente mas tarde o contacte al administrador`
+  String get errorRegisterUserWhy {
+    return Intl.message(
+      'No hemos podido hacer el registro del usuario intente mas tarde o contacte al administrador',
+      name: 'errorRegisterUserWhy',
       desc: '',
       args: [],
     );

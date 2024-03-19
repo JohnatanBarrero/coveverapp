@@ -12,7 +12,7 @@ class LoginUseCase {
         password,
         typeDocument,
       );
-      return user.idUser.isEmpty ? false : true; 
+      return user.name.isEmpty ? false : true; 
     } catch (e) {
       return false;
     }
