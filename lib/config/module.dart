@@ -1,4 +1,11 @@
 import 'package:coveverapp/config/http/http_manager.dart';
+import 'package:coveverapp/features/home/data/data_sources/local/info_device_impl.dart';
+import 'package:coveverapp/features/home/data/data_sources/remote/covid_info_impl_api.dart';
+import 'package:coveverapp/features/home/data/repositories/covid_info_repository_impl.dart';
+import 'package:coveverapp/features/home/data/repositories/info_device_repository_impl.dart';
+import 'package:coveverapp/features/home/domain/usecases/covid_info_usecase.dart';
+import 'package:coveverapp/features/home/domain/usecases/info_device_usecase.dart';
+
 import 'package:coveverapp/features/login/data/data_sources/remote/auth_impl_api.dart';
 import 'package:coveverapp/features/login/data/data_sources/remote/register_impl_api.dart';
 import 'package:coveverapp/features/login/data/repositories/auth_respository_impl.dart';
@@ -8,7 +15,7 @@ import 'package:coveverapp/features/login/domain/usecases/register_usecase.dart'
 import 'package:flutter_modular/flutter_modular.dart';
 import 'package:coveverapp/features/login/presentation/pages/login_screen.dart'
     as login;
-import 'package:coveverapp/features/home/presentation/page/home_screen.dart'
+import 'package:coveverapp/features/home/presentation/pages/home_screen.dart'
     as home;
 import 'package:coveverapp/features/login/presentation/pages/register_screen.dart'
     as register;
@@ -26,16 +33,30 @@ class AppModule extends Module {
         Bind.singleton((_) => RegisterUseCase(Modular.get())),
         Bind.singleton(
             (_) => register.RegisterBloc(registerUseCase: Modular.get())),
+            
+        Bind.singleton((_) => CovidInfoImplApi()),
+        Bind.singleton((_) => CovidInfoRepositoryImpl(Modular.get())),
+        Bind.singleton((_) => CovidInfoUseCase(Modular.get())),
+
+        Bind.singleton((_) => InfoDeviceImpl()),
+        Bind.singleton((_) => InfoDeviceRepositoryImpl(Modular.get())),
+        Bind.singleton((_) => InfoDeviceUseCase(Modular.get())),
+
+        Bind.singleton((_) => home.HomeBloc(
+              covidInfoUseCase: Modular.get(),
+              infoDeviceUseCase: Modular.get(),
+            )),
       ];
 
   @override
   List<ModularRoute> get routes => [
+        // ChildRoute(
+        //   Modular.initialRoute,
+        //   child: (_, args) => login.LoginScreen(),
+        // ),
         ChildRoute(
           Modular.initialRoute,
-          child: (_, args) => login.LoginScreen(),
-        ),
-        ChildRoute(
-          '/Home',
+          //   '/Home',
           child: (_, args) => const home.HomeScreen(),
           transition: TransitionType.rightToLeft,
         ),
