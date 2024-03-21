@@ -4,6 +4,7 @@ import 'package:coveverapp/features/home/domain/models/home_model.dart';
 import 'package:coveverapp/features/home/domain/usecases/covid_info_usecase.dart';
 import 'package:coveverapp/features/home/domain/usecases/info_device_usecase.dart';
 import 'package:equatable/equatable.dart';
+import 'package:package_info/package_info.dart';
 
 part 'home_event.dart';
 part 'home_state.dart';
@@ -61,6 +62,7 @@ class HomeBloc extends Bloc<HomeEvent, HomeState> {
         GotInfoCovidState(
           state.homeModel.copyWith(
             infoDevice: response,
+            versionMobile: await setVersionApp(),
           ),
         ),
       );
@@ -69,5 +71,15 @@ class HomeBloc extends Bloc<HomeEvent, HomeState> {
         ErrorInfoDeviceState(state.homeModel),
       );
     }
+  }
+
+  Future<String> setVersionApp() async {
+    late String version;
+    try {
+      version = (await PackageInfo.fromPlatform()).version;
+    } catch (e) {
+      version = '1.0.1';
+    }
+    return version;
   }
 }

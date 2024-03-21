@@ -48,6 +48,10 @@ class MyApp extends StatelessWidget {
         fontFamily: GoogleFonts.montserrat().fontFamily,
         primaryColor: const Color(0xFFED8429),
       ),
+      darkTheme: ThemeData(
+        brightness: Brightness.dark, // Tema oscuro
+        
+      ),
     );
   }
 }
