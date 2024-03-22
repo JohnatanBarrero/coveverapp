@@ -11,6 +11,7 @@ class ModalShowGeneralWidget {
 
     final FocusNode inputNode = FocusNode();
     showModalBottomSheet(
+      backgroundColor: Theme.of(context).cardTheme.color,
       isDismissible: true,
       useSafeArea: true,
       useRootNavigator: true,
@@ -26,9 +27,9 @@ class ModalShowGeneralWidget {
 
         return Container(
           height: heigh * heightModel,
-          decoration: const BoxDecoration(
-            color: Colors.white,
-            borderRadius: BorderRadius.only(
+          decoration: BoxDecoration(
+            color: Theme.of(context).cardTheme.color,
+            borderRadius: const BorderRadius.only(
               topLeft: Radius.circular(100.0),
               topRight: Radius.circular(100.0),
             ),

@@ -499,6 +499,26 @@ class S {
       args: [],
     );
   }
+
+  /// `Detelle por región`
+  String get detailbyRegion {
+    return Intl.message(
+      'Detelle por región',
+      name: 'detailbyRegion',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Ultima modificación`
+  String get lastUpdate {
+    return Intl.message(
+      'Ultima modificación',
+      name: 'lastUpdate',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {

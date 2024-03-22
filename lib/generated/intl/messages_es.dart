@@ -34,6 +34,8 @@ class MessageLookup extends MessageLookupByLibrary {
             "Fecha de recolección de datos"),
         "dateCurrently": MessageLookupByLibrary.simpleMessage("Fecha actual"),
         "deaths": MessageLookupByLibrary.simpleMessage("Fallecidos"),
+        "detailbyRegion":
+            MessageLookupByLibrary.simpleMessage("Detelle por región"),
         "deviceBrand":
             MessageLookupByLibrary.simpleMessage("Marca del dispositivo"),
         "deviceModel":
@@ -61,6 +63,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "invalidCredentials":
             MessageLookupByLibrary.simpleMessage("Credenciales invalidas"),
         "lastLame": MessageLookupByLibrary.simpleMessage("Apellido"),
+        "lastUpdate":
+            MessageLookupByLibrary.simpleMessage("Ultima modificación"),
         "login": MessageLookupByLibrary.simpleMessage("Login"),
         "logingFacebookNotAviable": MessageLookupByLibrary.simpleMessage(
             "Login de Facebook no disponible, disculpe las molestias, le recomendamos registrarse manualmente"),

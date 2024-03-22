@@ -12,6 +12,9 @@ import 'package:coveverapp/features/login/data/repositories/auth_respository_imp
 import 'package:coveverapp/features/login/data/repositories/register_repository_impl.dart';
 import 'package:coveverapp/features/login/domain/usecases/login_usecase.dart';
 import 'package:coveverapp/features/login/domain/usecases/register_usecase.dart';
+import 'package:coveverapp/features/states/data/data_sources/remote/info_state_impl_api.dart';
+import 'package:coveverapp/features/states/data/repositories/info_state_repository_impl.dart';
+import 'package:coveverapp/features/states/domain/usecases/info_state_usecase.dart';
 import 'package:flutter_modular/flutter_modular.dart';
 import 'package:coveverapp/features/login/presentation/pages/login_screen.dart'
     as login;
@@ -22,6 +25,8 @@ import 'package:coveverapp/features/login/presentation/pages/register_screen.dar
 import 'package:coveverapp/main.dart' as main;
 import 'package:coveverapp/features/login/presentation/pages/splash_screen.dart'
     as splash;
+import 'package:coveverapp/features/states/presentation/pages/states_screen.dart'
+    as states;
 
 class AppModule extends Module {
   @override
@@ -47,6 +52,10 @@ class AppModule extends Module {
               covidInfoUseCase: Modular.get(),
               infoDeviceUseCase: Modular.get(),
             )),
+        Bind.singleton((_) => InfoStateImpl()),
+        Bind.singleton((_) => InfoStateRepositoryImpl(Modular.get())),
+        Bind.singleton((_) => InfoStateUseCase(Modular.get())),
+        Bind.singleton((_) => states.Bloc(infoStateUseCase: Modular.get())),
       ];
 
   @override
@@ -68,6 +77,11 @@ class AppModule extends Module {
         ChildRoute(
           '/Register',
           child: (_, args) => const register.RegisterScreen(),
+          transition: TransitionType.rightToLeft,
+        ),
+        ChildRoute(
+           '/States',
+          child: (_, args) => const states.StateScreen(),
           transition: TransitionType.rightToLeft,
         ),
       ];

@@ -29,6 +29,7 @@ class RegisterScreen extends StatelessWidget {
     FocusNode focusNumber = FocusNode();
     return SafeArea(
       child: Scaffold(
+        backgroundColor: Theme.of(context).cardTheme.color,
         appBar: AppBar(
           title: Text(
             S.current.register,
@@ -40,7 +41,7 @@ class RegisterScreen extends StatelessWidget {
           leadingWidth: 50,
           foregroundColor: const Color(0xFFEC7D33),
           elevation: 1,
-          backgroundColor: Colors.white,
+          backgroundColor: Theme.of(context).cardTheme.color,
         ),
         body: BlocProvider.value(
           value: Modular.get<bloc.RegisterBloc>(),
@@ -81,10 +82,9 @@ class RegisterScreen extends StatelessWidget {
                               const SizedBox(height: 10.0),
                               Text(
                                 S.current.registerUser,
-                                style: const TextStyle(
-                                  fontSize: 18,
-                                  fontWeight: FontWeight.bold,
-                                ),
+                                style: Theme.of(context)
+                                    .primaryTextTheme
+                                    .bodyLarge,
                               ),
                               const SizedBox(height: 8.0),
                               FormNameDocumentWidget(

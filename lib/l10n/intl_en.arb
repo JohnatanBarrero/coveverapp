@@ -25,10 +25,10 @@
   "lastLame": "Lastname",
   "email": "Email",
   "register": "Register",
-  "confirmPassword": "Confirm password",  
-  "passShouldBeSame":"Password must be same",
-  "errrorRegisterUser":"Error making register",
-  "errorRegisterUserWhy":"We have not been able to register the user, try later or contact the administrator",
+  "confirmPassword": "Confirm password",
+  "passShouldBeSame": "Password must be same",
+  "errrorRegisterUser": "Error making register",
+  "errorRegisterUserWhy": "We have not been able to register the user, try later or contact the administrator",
   "deviceName": "Device Name",
   "deviceType": "Device Type",
   "operatingSystem": "Operating System and its Version",
@@ -44,5 +44,7 @@
   "confirmedCases": "Confirmed Cases",
   "positiveTests": "Positive Tests",
   "recovered": "Recovered",
-  "dateCurrently":"Date currently"
+  "dateCurrently": "Date currently",
+  "detailbyRegion": "Detail by region",
+  "lastUpdate": "Last update"
 }
