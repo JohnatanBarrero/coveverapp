@@ -1,0 +1,153 @@
+[
+  {
+    "name": "juana",
+    "lastName": "barero",
+    "email": "juana.barero@example.com",
+    "password": "Colombia1234**",
+    "typeDocument": "CC",
+    "numberDocument": "34324234"
+  },
+  {
+    "name": "pedro",
+    "lastName": "sanchez",
+    "email": "pedro.sanchez@example.com",
+    "password": "Mexico5678@@",
+    "typeDocument": "CC",
+    "numberDocument": "87543212"
+  },
+  {
+    "name": "maria",
+    "lastName": "lopez",
+
+    "email": "maria.lopez@example.com",
+    "password": "Argentina91011##",
+    "typeDocument": "CC",
+    "numberDocument": "98765432"
+  },
+  {
+    "name": "juan",
+    "lastName": "garcia",
+
+    "email": "juan.garcia@example.com",
+    "password": "Brazil121314**",
+    "typeDocument": "CC",
+    "numberDocument": "23456789"
+  },
+  {
+    "name": "laura",
+    "lastName": "rodriguez",
+
+    "email": "laura.rodriguez@example.com",
+    "password": "Chile151617##",
+    "typeDocument": "TI",
+    "numberDocument": "54321678"
+  },
+  {
+    "name": "carlos",
+    "lastName": "martinez",
+
+    "email": "carlos.martinez@example.com",
+    "password": "Peru181920@@",
+    "typeDocument": "CE",
+    "numberDocument": "32198765"
+  },
+  {
+    "name": "ana",
+    "lastName": "fernandez",
+
+    "email": "ana.fernandez@example.com",
+    "password": "Ecuador212223**",
+    "typeDocument": "CC",
+    "numberDocument": "87654321"
+  },
+  {
+    "name": "jose",
+    "lastName": "perez",
+
+    "email": "jose.perez@example.com",
+    "password": "Uruguay242526@@",
+    "typeDocument": "CC",
+    "numberDocument": "13579246"
+  },
+  {
+    "name": "luis",
+    "lastName": "gonzalez",
+
+    "email": "luis.gonzalez@example.com",
+    "password": "Paraguay272829##",
+    "typeDocument": "CC",
+    "numberDocument": "98765432"
+  },
+  {
+    "name": "andrea",
+    "lastName": "ramirez",
+
+    "email": "andrea.ramirez@example.com",
+    "password": "Bolivia303132**",
+    "typeDocument": "CC",
+    "numberDocument": "24681357"
+  },
+  {
+    "name": "miguel",
+    "lastName": "torres",
+
+    "email": "miguel.torres@example.com",
+    "password": "Venezuela333435@@",
+    "typeDocument": "CC",
+    "numberDocument": "98765432"
+  },
+  {
+    "name": "sara",
+    "lastName": "hernandez",
+
+    "email": "sara.hernandez@example.com",
+    "password": "Panama363738##",
+    "typeDocument": "CC",
+    "numberDocument": "13579246"
+  },
+  {
+    "name": "javier",
+    "lastName": "diaz",
+
+    "email": "javier.diaz@example.com",
+    "password": "Nicaragua394041**",
+    "typeDocument": "CC",
+    "numberDocument": "24681357"
+  },
+  {
+    "name": "lucia",
+    "lastName": "ruiz",
+
+    "email": "lucia.ruiz@example.com",
+    "password": "CostaRica424344@@",
+    "typeDocument": "CC",
+    "numberDocument": "97531862"
+  },
+  {
+    "name": "daniel",
+    "lastName": "gomez",
+
+    "email": "daniel.gomez@example.com",
+    "password": "ElSalvador454647##",
+    "typeDocument": "TI",
+    "numberDocument": "86421357"
+  },
+  {
+    "name": "martha",
+    "lastName": "santos",
+
+    "email": "martha.santos@example.com",
+    "password": "Honduras484950**",
+    "typeDocument": "CE",
+    "numberDocument": "13579246"
+  },
+  {
+    "name": "oscar",
+    "lastName": "mendoza",
+
+    "email": "oscar.mendoza@example.com",
+    "password": "Guatemala515253@@",
+    "typeDocument": "CE",
+    "numberDocument": "97531862"
+  }
+]
