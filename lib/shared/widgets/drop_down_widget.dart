@@ -28,9 +28,10 @@ class DropDownWidget extends StatelessWidget {
           padding: const EdgeInsets.only(top: 10.0),
           child: Text(
             textLabel,
-            style: const TextStyle(
-              color: Colors.black,
-            ),
+            style: Theme.of(context).primaryTextTheme.bodyMedium!.copyWith(
+                  fontSize: 14,
+                  fontWeight: FontWeight.bold,
+                ),
           ),
         ),
         const SizedBox(
@@ -40,26 +41,24 @@ class DropDownWidget extends StatelessWidget {
           focusColor: Colors.yellow,
           isExpanded: true,
           isDense: true,
-          dropdownColor: Colors.white,
+          dropdownColor: Theme.of(context).cardTheme.color,
           items: items,
-          icon: const Icon(
-            Icons.arrow_drop_down,
-            size: 30.0,
-            color: Colors.black,
-          ),
+          icon: Icon(Icons.arrow_drop_down,
+              size: 30.0,
+              color: Theme.of(context).colorScheme.secondaryContainer),
           value: value,
           autovalidateMode: AutovalidateMode.onUserInteraction,
           validator: (value) {
             if (validator != null) {
-            return  validator!(value);
+              return validator!(value);
             }
             return null;
           },
-          decoration: const InputDecoration(
-            fillColor: Colors.white,
-            contentPadding: EdgeInsets.symmetric(horizontal: 6),
+          decoration: InputDecoration(
+            fillColor: Theme.of(context).colorScheme.onBackground,
+            contentPadding: const EdgeInsets.symmetric(horizontal: 6),
             isDense: false,
-            focusedBorder: OutlineInputBorder(
+            focusedBorder: const OutlineInputBorder(
               borderRadius: BorderRadius.all(
                 Radius.circular(8),
               ),
@@ -68,7 +67,7 @@ class DropDownWidget extends StatelessWidget {
                 width: 1.0,
               ),
             ),
-            enabledBorder: OutlineInputBorder(
+            enabledBorder: const OutlineInputBorder(
               borderRadius: BorderRadius.all(
                 Radius.circular(8),
               ),
@@ -77,7 +76,7 @@ class DropDownWidget extends StatelessWidget {
                 width: 1.0,
               ),
             ),
-            errorBorder: OutlineInputBorder(
+            errorBorder: const OutlineInputBorder(
               borderRadius: BorderRadius.all(
                 Radius.circular(8),
               ),
@@ -86,7 +85,7 @@ class DropDownWidget extends StatelessWidget {
                 width: 1.0,
               ),
             ),
-            focusedErrorBorder: OutlineInputBorder(
+            focusedErrorBorder: const OutlineInputBorder(
               borderRadius: BorderRadius.all(
                 Radius.circular(8),
               ),
@@ -99,7 +98,7 @@ class DropDownWidget extends StatelessWidget {
           ),
           hint: Text(
             txtHint,
-            style: const TextStyle(),
+            style: Theme.of(context).primaryTextTheme.bodyMedium,
           ),
           style: const TextStyle(
             fontSize: 14.0,

@@ -44,5 +44,7 @@
   "confirmedCases": "Casos confirmados",
   "positiveTests": "Pruebas positivas",
   "recovered": "Recuperados",
-  "dateCurrently":"Fecha actual"
+  "dateCurrently":"Fecha actual",
+  "detailbyRegion":"Detelle por región",
+  "lastUpdate":"Ultima modificación"
 }

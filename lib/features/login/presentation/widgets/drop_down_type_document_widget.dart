@@ -27,11 +27,9 @@ class DropDownTypeDocumentWidget extends StatelessWidget {
           child: Text(
             ltsTypeDocument[i].txtToShow.toString(),
             overflow: TextOverflow.visible,
-            style: const TextStyle(
-              color: Colors.black,
-              fontSize: 15.0,
-              fontFamily: 'Raleway',
-            ),
+            style: Theme.of(context).primaryTextTheme.bodyMedium!.copyWith(
+                  fontSize: 16,
+                ),
             textAlign: TextAlign.left,
             maxLines: 3,
           ),

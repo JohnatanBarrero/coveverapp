@@ -34,6 +34,8 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Data Collection Date"),
         "dateCurrently": MessageLookupByLibrary.simpleMessage("Date currently"),
         "deaths": MessageLookupByLibrary.simpleMessage("Deaths"),
+        "detailbyRegion":
+            MessageLookupByLibrary.simpleMessage("Detail by region"),
         "deviceBrand": MessageLookupByLibrary.simpleMessage("Device Brand"),
         "deviceModel": MessageLookupByLibrary.simpleMessage("Device Model"),
         "deviceName": MessageLookupByLibrary.simpleMessage("Device Name"),
@@ -57,6 +59,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "invalidCredentials":
             MessageLookupByLibrary.simpleMessage("Invalid credentials"),
         "lastLame": MessageLookupByLibrary.simpleMessage("Lastname"),
+        "lastUpdate": MessageLookupByLibrary.simpleMessage("Last update"),
         "login": MessageLookupByLibrary.simpleMessage("Login"),
         "logingFacebookNotAviable": MessageLookupByLibrary.simpleMessage(
             "Facebook login is not aviable, sorry for that, we recommend doing it manually"),

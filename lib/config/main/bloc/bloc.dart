@@ -22,7 +22,11 @@ class Bloc extends bloc.Bloc<Event, State> {
       );
   void _loadInitialEvent(LoadInitialEvent event, Emitter<State> emit) {
     emit(
-      InitialState(state.model),
+      InitialState(
+        state.model.copyWith(
+          isDarkThemeApp: Preferences().isdark,
+        ),
+      ),
     );
   }
 

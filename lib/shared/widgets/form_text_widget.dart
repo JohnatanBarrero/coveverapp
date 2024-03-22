@@ -7,14 +7,14 @@ class FormTextWidget extends StatelessWidget {
     this.border,
     this.errorBorderStyle,
     required this.textLabel,
-    
     this.textInputType = TextInputType.name,
     required this.onChanged,
     this.icon,
     this.onPressedIcon,
     this.obscureText = false,
     required this.onFieldSubmitted,
-    required this.focusNode, this.validator,
+    required this.focusNode,
+    this.validator,
   }) : super(key: key);
 
   final TextStyle? labelStyle;
@@ -40,9 +40,10 @@ class FormTextWidget extends StatelessWidget {
           padding: const EdgeInsets.only(top: 20.0, bottom: 2.0),
           child: Text(
             textLabel,
-            style: const TextStyle(
-              color: Colors.black,
-            ),
+            style: Theme.of(context).primaryTextTheme.bodyMedium!.copyWith(
+                  fontSize: 14,
+                  fontWeight: FontWeight.bold,
+                ),
           ),
         ),
         const SizedBox(
@@ -50,10 +51,9 @@ class FormTextWidget extends StatelessWidget {
         ),
         TextFormField(
           focusNode: focusNode,
-          style: const TextStyle(
-            color: Colors.black,
-          ),
-          //controller: controller,
+          style: Theme.of(context).primaryTextTheme.bodyMedium!.copyWith(
+                fontSize: 16,
+              ),
           keyboardType: textInputType,
           textCapitalization: TextCapitalization.none,
           autovalidateMode: AutovalidateMode.onUserInteraction,
@@ -69,7 +69,7 @@ class FormTextWidget extends StatelessWidget {
                   )
                 : null,
             filled: true,
-            fillColor: Colors.white,
+            fillColor: Theme.of(context).colorScheme.onBackground,
             labelStyle: labelStyle,
             focusedBorder: border,
             enabledBorder: border,
@@ -83,7 +83,7 @@ class FormTextWidget extends StatelessWidget {
           ),
           validator: (value) {
             if (validator != null) {
-            return  validator!(value);
+              return validator!(value);
             }
             return null;
           },

@@ -28,9 +28,9 @@ class BtnGeneralWidget extends StatelessWidget {
               onPressed: onPressed,
               child: Text(
                 txt,
-                style: const TextStyle(
+                style: TextStyle(
                   fontSize: 20,
-                  color: Colors.white,
+                  color: Theme.of(context).cardTheme.color,
                 ),
               ),
             ),

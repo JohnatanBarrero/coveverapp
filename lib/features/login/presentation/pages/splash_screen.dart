@@ -55,7 +55,7 @@ class AnimatedProgressBarState extends State<AnimatedProgressBar>
         setState(() {});
         if (_animation.value == 1) {
           Modular.to.pushReplacementNamed(
-            '/login',
+            '/Home',
           );
         }
       });

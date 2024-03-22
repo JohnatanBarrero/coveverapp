@@ -71,9 +71,9 @@ class MyApp extends StatelessWidget {
                       primaryContainer: Colors.white,
                       brightness: Brightness.light,
                       primary: Color(0xFFED8429),
-                      onPrimary: Color(0xFF525659),
+                      onPrimary: Colors.black,
                       secondary: Color(0xFF525659),
-                      onSecondary: Color(0xFF525659),
+                      onSecondary: Color(0xFFA0A0A0),
                       error: Colors.red,
                       onError: Colors.red,
                       background: Colors.white,
@@ -91,13 +91,14 @@ class MyApp extends StatelessWidget {
                           fontSize: 12,
                           color: Color(0xFF525659),
                         )),
+                        
                   )
                 : ThemeData(
                     fontFamily: GoogleFonts.montserrat().fontFamily,
                     primaryColor: const Color(0xFFED8429),
                     cardTheme: CardTheme(color: Colors.grey[800]),
                     colorScheme: const ColorScheme(
-                       secondaryContainer: Colors.white,
+                      secondaryContainer: Colors.white,
                       primaryContainer: Color(0xFF525659),
                       brightness: Brightness.light,
                       primary: Color(0xFFED8429),
@@ -107,7 +108,7 @@ class MyApp extends StatelessWidget {
                       error: Colors.red,
                       onError: Colors.red,
                       background: Colors.white,
-                      onBackground: Color(0xFF525659),
+                      onBackground: Color(0xFFA0A0A0),
                       surface: Color(0xFFED8429),
                       onSurface: Color(0xFF525659),
                     ),

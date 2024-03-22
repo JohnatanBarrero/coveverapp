@@ -23,7 +23,11 @@ class HomeScreen extends StatelessWidget {
     return SafeArea(
       child: Scaffold(
         floatingActionButton: FloatingActionButton(
-          onPressed: () {}, // Icono dentro del botón flotante
+          onPressed: () {
+            Modular.to.pushNamed(
+              '/States',
+            );
+          }, // Icono dentro del botón flotante
           backgroundColor: Theme.of(context).primaryColor,
           child: const Icon(Icons.add), // Color de fondo del botón flotante
         ),

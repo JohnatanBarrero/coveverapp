@@ -23,6 +23,7 @@ class LoginScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return SafeArea(
       child: Scaffold(
+        backgroundColor: Theme.of(context).cardTheme.color,
         resizeToAvoidBottomInset: true,
         body: BlocProvider.value(
           value: Modular.get<bloc.Bloc>(),
