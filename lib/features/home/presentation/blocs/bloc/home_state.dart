@@ -34,3 +34,5 @@ class GotInfoDeviceState extends HomeState {
 class ErrorInfoDeviceState extends HomeState {
   const ErrorInfoDeviceState(HomeModel homeModel) : super(homeModel);
 }
+
+

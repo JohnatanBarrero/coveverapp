@@ -25,6 +25,19 @@ class MessageLookup extends MessageLookupByLibrary {
         "close": MessageLookupByLibrary.simpleMessage("Close"),
         "confirmPassword":
             MessageLookupByLibrary.simpleMessage("Confirm password"),
+        "confirmedCases":
+            MessageLookupByLibrary.simpleMessage("Confirmed Cases"),
+        "covidProject": MessageLookupByLibrary.simpleMessage(
+            "The COVID Tracking project has completed all data collection as of March 7, 2021"),
+        "currentDate": MessageLookupByLibrary.simpleMessage("Current Date"),
+        "dataCollectionDate":
+            MessageLookupByLibrary.simpleMessage("Data Collection Date"),
+        "dateCurrently": MessageLookupByLibrary.simpleMessage("Date currently"),
+        "deaths": MessageLookupByLibrary.simpleMessage("Deaths"),
+        "deviceBrand": MessageLookupByLibrary.simpleMessage("Device Brand"),
+        "deviceModel": MessageLookupByLibrary.simpleMessage("Device Model"),
+        "deviceName": MessageLookupByLibrary.simpleMessage("Device Name"),
+        "deviceType": MessageLookupByLibrary.simpleMessage("Device Type"),
         "email": MessageLookupByLibrary.simpleMessage("Email"),
         "errorRegisterUserWhy": MessageLookupByLibrary.simpleMessage(
             "We have not been able to register the user, try later or contact the administrator"),
@@ -52,17 +65,24 @@ class MessageLookup extends MessageLookupByLibrary {
         "logingInstagramNotAviable": MessageLookupByLibrary.simpleMessage(
             "Instagram login is not aviable, sorry for that, we recommend doing it manually"),
         "name": MessageLookupByLibrary.simpleMessage("Name"),
+        "negativeTests": MessageLookupByLibrary.simpleMessage("Negative Tests"),
         "numberDocument":
             MessageLookupByLibrary.simpleMessage("Number of Document"),
+        "operatingSystem": MessageLookupByLibrary.simpleMessage(
+            "Operating System and its Version"),
         "pageInConstruction":
             MessageLookupByLibrary.simpleMessage("Page in Construction"),
         "passShouldBeSame":
             MessageLookupByLibrary.simpleMessage("Password must be same"),
         "password": MessageLookupByLibrary.simpleMessage("password"),
+        "pendingTests": MessageLookupByLibrary.simpleMessage("Pending Tests"),
+        "positiveTests": MessageLookupByLibrary.simpleMessage("Positive Tests"),
+        "recovered": MessageLookupByLibrary.simpleMessage("Recovered"),
         "register": MessageLookupByLibrary.simpleMessage("Register"),
         "registerUser": MessageLookupByLibrary.simpleMessage("Register User"),
         "selectAtypedocument":
             MessageLookupByLibrary.simpleMessage("Select a document"),
+        "totalCases": MessageLookupByLibrary.simpleMessage("Total Cases"),
         "tryAgain": MessageLookupByLibrary.simpleMessage("Try Again"),
         "tryAgainOrRegister": MessageLookupByLibrary.simpleMessage(
             "The credentials have not been valid, try again or register if you do not have an account"),

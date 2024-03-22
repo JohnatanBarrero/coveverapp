@@ -19,11 +19,15 @@ import 'package:coveverapp/features/home/presentation/pages/home_screen.dart'
     as home;
 import 'package:coveverapp/features/login/presentation/pages/register_screen.dart'
     as register;
+import 'package:coveverapp/main.dart' as main;
+import 'package:coveverapp/features/login/presentation/pages/splash_screen.dart'
+    as splash;
 
 class AppModule extends Module {
   @override
   List<Bind> get binds => [
         Bind((i) => HttpManager(), isLazy: false),
+        Bind.singleton((_) => main.Bloc()),
         Bind.singleton((_) => AuthImplApi()),
         Bind.singleton((_) => AuthRepositoryImpl(Modular.get())),
         Bind.singleton((_) => LoginUseCase(Modular.get())),
@@ -33,15 +37,12 @@ class AppModule extends Module {
         Bind.singleton((_) => RegisterUseCase(Modular.get())),
         Bind.singleton(
             (_) => register.RegisterBloc(registerUseCase: Modular.get())),
-            
         Bind.singleton((_) => CovidInfoImplApi()),
         Bind.singleton((_) => CovidInfoRepositoryImpl(Modular.get())),
         Bind.singleton((_) => CovidInfoUseCase(Modular.get())),
-
         Bind.singleton((_) => InfoDeviceImpl()),
         Bind.singleton((_) => InfoDeviceRepositoryImpl(Modular.get())),
         Bind.singleton((_) => InfoDeviceUseCase(Modular.get())),
-
         Bind.singleton((_) => home.HomeBloc(
               covidInfoUseCase: Modular.get(),
               infoDeviceUseCase: Modular.get(),
@@ -50,13 +51,17 @@ class AppModule extends Module {
 
   @override
   List<ModularRoute> get routes => [
-        // ChildRoute(
-        //   Modular.initialRoute,
-        //   child: (_, args) => login.LoginScreen(),
-        // ),
         ChildRoute(
           Modular.initialRoute,
-          //   '/Home',
+          child: (_, args) => const splash.SplasScreen(),
+          transition: TransitionType.rightToLeft,
+        ),
+        ChildRoute(
+          '/login',
+          child: (_, args) => login.LoginScreen(),
+        ),
+        ChildRoute(
+          '/Home',
           child: (_, args) => const home.HomeScreen(),
           transition: TransitionType.rightToLeft,
         ),

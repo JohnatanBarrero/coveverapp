@@ -1,4 +1,5 @@
 import 'package:bloc/bloc.dart';
+
 import 'package:coveverapp/features/home/domain/models/home_model.dart';
 
 import 'package:coveverapp/features/home/domain/usecases/covid_info_usecase.dart';
@@ -18,6 +19,7 @@ class HomeBloc extends Bloc<HomeEvent, HomeState> {
     on<LoadInitialEvent>(_loadInitialEvent);
     on<GetInfoCovidEvent>(_getInfoCovidEvent);
     on<GetInfoDeviceEvent>(_getInfoDeviceEvent);
+ 
   }
 
   static HomeState get initialState => const InitialState(HomeModel());
@@ -27,6 +29,8 @@ class HomeBloc extends Bloc<HomeEvent, HomeState> {
       InitialState(state.homeModel),
     );
   }
+
+
 
   void _getInfoCovidEvent(
       GetInfoCovidEvent event, Emitter<HomeState> emit) async {

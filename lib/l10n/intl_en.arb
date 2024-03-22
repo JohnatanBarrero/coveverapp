@@ -28,6 +28,21 @@
   "confirmPassword": "Confirm password",  
   "passShouldBeSame":"Password must be same",
   "errrorRegisterUser":"Error making register",
-  "errorRegisterUserWhy":"We have not been able to register the user, try later or contact the administrator"
-
+  "errorRegisterUserWhy":"We have not been able to register the user, try later or contact the administrator",
+  "deviceName": "Device Name",
+  "deviceType": "Device Type",
+  "operatingSystem": "Operating System and its Version",
+  "deviceBrand": "Device Brand",
+  "deviceModel": "Device Model",
+  "currentDate": "Current Date",
+  "covidProject": "The COVID Tracking project has completed all data collection as of March 7, 2021",
+  "dataCollectionDate": "Data Collection Date",
+  "totalCases": "Total Cases",
+  "negativeTests": "Negative Tests",
+  "deaths": "Deaths",
+  "pendingTests": "Pending Tests",
+  "confirmedCases": "Confirmed Cases",
+  "positiveTests": "Positive Tests",
+  "recovered": "Recovered",
+  "dateCurrently":"Date currently"
 }

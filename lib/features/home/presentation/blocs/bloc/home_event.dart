@@ -16,3 +16,5 @@ class GetInfoCovidEvent extends HomeEvent {
 class GetInfoDeviceEvent extends HomeEvent {
    GetInfoDeviceEvent();
 }
+
+
