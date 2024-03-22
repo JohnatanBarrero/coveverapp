@@ -22,8 +22,14 @@ Cada feature tiene la siguiente organizacion de carpetas
 
 Recuerde que como usamos clean arquitecture y tratando de seguir los principos SOLID esta organización nos ayudara a cumplir con esto.
 Dentro de feature encontramos:
+
+
 Data->Implementación de repositorios específicos
+
+
 Domain->Lógica de negocio especifica
+
+
 Dentro de domain tenemos 
 
 <img width="192" alt="image" src="https://github.com/JohnatanBarrero/coveverapp/assets/20840714/32ce453a-f2da-4593-a835-92e39b4d9e0d">
@@ -35,9 +41,16 @@ Por ultimo la carptea shared
 Shared-> Esta carpeta tiene recursos que se pueden conpartir en todos lado de la app.
 
 Como ejecutar la app
+
+
 Para ejecutar exitosamente la app ejecute los sigientes comandos
+
+
 flutter clean && flutter pub get && flutter run
+
+
 Copie estos tres comandi y peguelos en la terminal , se ejecutaran al tiempo y correla la aplicación
+
 
 Por ultimo usas capturas
 
