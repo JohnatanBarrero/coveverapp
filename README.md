@@ -72,7 +72,7 @@ Copie estos tres comandos y peguelos en la terminal , se ejecutaran al tiempo y 
 Por ultimo usas capturas
 
 
-
+<img width="430" alt="image" src="https://github.com/JohnatanBarrero/coveverapp/assets/20840714/9236de6b-b49e-449b-af0b-d03445fb5bec">
 <img width="411" alt="image" src="https://github.com/JohnatanBarrero/coveverapp/assets/20840714/332d282f-698b-4507-bc0d-d22281e42bb7">
 <img width="420" alt="image" src="https://github.com/JohnatanBarrero/coveverapp/assets/20840714/3e81b6b1-cd6e-4214-8348-0309309147c8">
 <img width="411" alt="image" src="https://github.com/JohnatanBarrero/coveverapp/assets/20840714/852c3a7b-2f71-4698-af3c-8cca59c0a330">
