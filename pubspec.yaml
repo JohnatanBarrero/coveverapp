@@ -38,6 +38,9 @@ dependencies:
   client_information: ^2.0.4
   shared_preferences: ^2.0.15
   flutter_modular: ^5.0.2
+  device_info_plus: ^9.1.2
+  package_info: ^2.0.2
+  flutter_neumorphic_plus: ^3.3.0
   flutter_localizations:
     sdk: flutter
   google_fonts: ^4.0.4

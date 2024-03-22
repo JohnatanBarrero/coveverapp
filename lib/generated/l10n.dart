@@ -339,6 +339,166 @@ class S {
       args: [],
     );
   }
+
+  /// `Nombre del dispositivo`
+  String get deviceName {
+    return Intl.message(
+      'Nombre del dispositivo',
+      name: 'deviceName',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Tipo de dispositivo`
+  String get deviceType {
+    return Intl.message(
+      'Tipo de dispositivo',
+      name: 'deviceType',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Sistema operativo y su versión`
+  String get operatingSystem {
+    return Intl.message(
+      'Sistema operativo y su versión',
+      name: 'operatingSystem',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Marca del dispositivo`
+  String get deviceBrand {
+    return Intl.message(
+      'Marca del dispositivo',
+      name: 'deviceBrand',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Modelo del dispositivo`
+  String get deviceModel {
+    return Intl.message(
+      'Modelo del dispositivo',
+      name: 'deviceModel',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Fecha actual`
+  String get currentDate {
+    return Intl.message(
+      'Fecha actual',
+      name: 'currentDate',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `El proyecto COVID Tracking ha finalizado toda recopilación de datos a partir del 7 de marzo de 2021`
+  String get covidProject {
+    return Intl.message(
+      'El proyecto COVID Tracking ha finalizado toda recopilación de datos a partir del 7 de marzo de 2021',
+      name: 'covidProject',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Fecha de recolección de datos`
+  String get dataCollectionDate {
+    return Intl.message(
+      'Fecha de recolección de datos',
+      name: 'dataCollectionDate',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Casos totales`
+  String get totalCases {
+    return Intl.message(
+      'Casos totales',
+      name: 'totalCases',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Pruebas negativas`
+  String get negativeTests {
+    return Intl.message(
+      'Pruebas negativas',
+      name: 'negativeTests',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Fallecidos`
+  String get deaths {
+    return Intl.message(
+      'Fallecidos',
+      name: 'deaths',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Pruebas pendientes`
+  String get pendingTests {
+    return Intl.message(
+      'Pruebas pendientes',
+      name: 'pendingTests',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Casos confirmados`
+  String get confirmedCases {
+    return Intl.message(
+      'Casos confirmados',
+      name: 'confirmedCases',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Pruebas positivas`
+  String get positiveTests {
+    return Intl.message(
+      'Pruebas positivas',
+      name: 'positiveTests',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Recuperados`
+  String get recovered {
+    return Intl.message(
+      'Recuperados',
+      name: 'recovered',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Fecha actual`
+  String get dateCurrently {
+    return Intl.message(
+      'Fecha actual',
+      name: 'dateCurrently',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {

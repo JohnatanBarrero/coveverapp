@@ -5,16 +5,16 @@ import 'package:coveverapp/features/login/domain/repositories/abstract_auth_resp
 
 class AuthRepositoryImpl extends AbstractAuthRepository {
   
-    final AuthImplApi articlesApi;
+    final AuthImplApi authApi;
 
   AuthRepositoryImpl(
-    this.articlesApi,
+    this.authApi,
   );
 
   @override
   Future<UserModel> login(String numberDocument, String password, String typeDocument) async{
    
-   return await articlesApi.loginLocal(numberDocument, password, typeDocument);
+   return await authApi.loginLocal(numberDocument, password, typeDocument);
   }
 
 }
