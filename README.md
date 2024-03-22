@@ -12,11 +12,21 @@ Se uso la siguiente organización de carpetas
 
 
 Config -> Tiene los arvhivos necesarios para la configuracion inicial del app que no tienen que ver con la logica de negocio.
+
+
 Nota importante: Dentro de esta carpeta hay otra llamada main, esta carpeta los archivos necesarios para la logica del estado global de la app, en esta entrega solo la usamos para cambiar el tema pero, puede usarse para configuraciones mas avanzadas como idioma, ambientes conexiones especiales etc.
+
+
 Core -> En esta carpeta tenemos los archivos necesario para manejar el core de la logica, para esta entrega no se usarion pero quedaron listas.
+
+
 features -> En esta carpeta quedo todo lo relacionado con las funcionalidades.
 
+
+
 Cada feature tiene la siguiente organizacion de carpetas 
+
+
 
 <img width="322" alt="image" src="https://github.com/JohnatanBarrero/coveverapp/assets/20840714/a5ba6b9d-0b47-4a9d-99e7-509434aed3fd">
 
@@ -36,9 +46,16 @@ Dentro de domain tenemos
 
 
 Aqui es mportante por que maneja la logica de negocio y fuentes de datos.
+
+
 Presentation->Capa de presentación especifica (UI y BLoCs
+
+
 Por ultimo la carptea shared
+
+
 Shared-> Esta carpeta tiene recursos que se pueden conpartir en todos lado de la app.
+
 
 Como ejecutar la app
 
