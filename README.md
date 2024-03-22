@@ -2,7 +2,7 @@
 
 Bienvenido equipo EVERTEC , por favor lea lo siguiente antes de ejecutar la aplicación
 
-Se uso el flujo de trabajo de git flow exoplicado aqui -> https://www.atlassian.com/es/git/tutorials/comparing-workflows/gitflow-workflow
+Se uso el flujo de trabajo de git flow explicado aqui -> https://www.atlassian.com/es/git/tutorials/comparing-workflows/gitflow-workflow
 
 Se uso uso clean arquitecture tratando de seguir los principios SOLID
 Se uso el manejador de estado BloC
