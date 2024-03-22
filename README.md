@@ -66,7 +66,7 @@ Para ejecutar exitosamente la app ejecute los sigientes comandos
 flutter clean && flutter pub get && flutter run
 
 
-Copie estos tres comandi y peguelos en la terminal , se ejecutaran al tiempo y correla la aplicación
+Copie estos tres comandos y peguelos en la terminal , se ejecutaran al tiempo y correra la aplicación
 
 
 Por ultimo usas capturas
